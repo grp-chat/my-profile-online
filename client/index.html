@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Andrew Chiew</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Love Ya Like A Sister" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Architects Daughter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest Guy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lemon" rel="stylesheet">
+    
+    
+    <style>
+      body {
+        background-image:url("https://lh3.googleusercontent.com/VYo1cqHS1pgxt4nfeAjOxIt02rwIZMyqmlFUNX8l9ATSwLlNHI1UJSASMpl6jBDFggdiiPj-qyBLdQ3DOZsbiiP7L8G5nmat0h87fogkA0zZdWAx2ZBJEj8OCPPRDNw6JH61Z-w=w2400");
+        background-repeat:no-repeat;
+        background-position:top right;
+        /*background-size:100% 100%*/
+        background-size:3500px;
+        min-width:300px ;
+        
+      }
+      
+      .borderSolid {
+        border: 5px navy solid;
+        border-radius:10px;
+        box-shadow:8px 8px 10px black;
+        background:Cornflowerblue;
+        font-size:30px;
+        font-family:"Love Ya Like A Sister";
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        text-decoration: underline;
+        
+        
+      }
+      .border {
+        /*border: 5px white solid;*/
+        /*border-radius:10px;*/
+        padding-top:10px;
+        padding-bottom:10px;
+        background-image:url("https://lh3.googleusercontent.com/z9UEZA1gguXVFngruKhGai9LG_SyRCK6_8N6R6f3RBObTw85O-JT-GMXn0tqOXNcnaZBqK4Vi7AXg_gDjcKrwbCwK1TipkFFIh3aie8_yBqqNqgOxbYldh_a08HMGNeJfFSPanU=w2400");  
+        
+        background-repeat:no-repeat;
+        background-size: 400px;
+        min-width: 300px;
+        max-width: 600px;
+        margin-bottom:30px;
+        font-family:"Architects Daughter";
+      }
+      
+      .padding2 {
+        padding: 15px 15px 15px 15px;
+        font-family:"Lemon";
+        color:royalblue;
+        background-color:rgb(224,255,255,0.7);
+        box-shadow: 5px 5px 5px DeepSkyBlue;
+      }
+      .reduceMargin{
+        
+        margin-bottom: 3px;
+      }
+      
+      a {
+        text-decoration:none;
+      }
+
+      .mouseover:hover {     
+        border:5px solid Navy;
+        display:block;          
+        height:200px;
+        width:200px; 
+      }
+      .mouseover2:hover {     
+        text-decoration: underline;
+      }
+      .text3D {
+
+        /*transform: translate(50%,-50%);*/
+        text-transform: uppercase;
+        font-family: verdana;
+        font-size: 4em;
+        font-weight: 600;
+        text-align:center;
+        color: #f5f5f5;
+        text-shadow: 1px 1px 1px #919191,
+          1px 2px 1px #919191,
+          1px 3px 1px #919191,
+          1px 4px 1px #919191,
+          1px 5px 1px #919191,
+          1px 6px 1px #919191,
+          1px 7px 1px #919191,
+          1px 8px 1px #919191,
+          1px 9px 1px #919191,
+          1px 10px 1px #919191,
+          1px 18px 6px rgba(16,16,16,0.4),
+          1px 22px 10px rgba(16,16,16,0.2),
+          1px 25px 35px rgba(16,16,16,0.2),
+          1px 30px 60px rgba(16,16,16,0.4);
+      }
+      .heading {
+        padding: 16px 40px;
+        background-color: deepskyblue;
+        width: 250px;
+        font-size: 30px;
+        color: Navy;
+        font-weight: bold;
+        margin-top:30px;
+      }
+      .trapezoid { 
+        border-top: 20px solid navy;
+        border-left: 20px solid transparent; 
+        border-right: 20px solid transparent; 
+        height: 0; 
+        width: 290px;
+        
+      }
+      
+      h4 {
+        font-family:"Luckiest Guy";
+        font-size: 2em;
+        font-weight: 500;
+        color: navy;
+        text-align: center;
+        margin-top: -9px;
+        text-decoration: none;
+  
+
+      }
+      
+      .text-box {
+        
+        position: relative;
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        
+      }
+
+      h3 {
+        font-family:"Luckiest Guy";
+        font-size: 8vw;
+        font-weight: 800;
+        background-color: dodgerblue;
+        color: #fff;
+        display: block;
+        padding: .2em;
+      }
+
+      h3:nth-child(2) {
+        position: absolute;
+        background-color: #fff;
+        color: dodgerblue;
+        clip-path: inset(-1% -1% 50% -1%); // Added the negative values to prevent icky "bleed" in Chrome
+      }
+      .container {
+        /*position: absolute;*/
+        
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 50;
+        width: 100%;
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+    </style>
+
+
+</head>
+
+<body>
+    <h1 class="text3D">Andrew Chiew</h1>
+    
+    
+    
+    <!-- My Positions/Services -->
+    <h2 class="borderSolid">  
+       * Stacking Coach * Gamification Consultant * MS Excel & VBA Programmer * Video Editor * Graphics Designer *
+    </h2>
+    
+    <!-- Executive Summary --> 
+    <p class="padding2"> 
+      I love helping people. I have helped people from all walks of life: kids, teenagers, parents, managers, supervisors, clerical, sales people, entreprenuers, and many more. Helping people makes me feel happy and I believe this is my purpose in life.
+    </p>
+    
+    <!-- mini intruction to ask user to click --> 
+    <h6 class="reduceMargin"> 
+      (Click image below to enlarge)
+    </h6>
+    
+    <!-- anchor tag with image --> 
+    <a class="mouseover" href="https://subangspeedstacks.files.wordpress.com/2017/12/img_20171119_202547_hdr1.jpg?w=576&h=1024" target="_blank">
+      
+     <!-- <div class="picframe mouseover"> -->
+        <img
+             src="https://subangspeedstacks.files.wordpress.com/2021/09/andrew-chiew.png?resize=438%2C438" 
+             width="200"
+             height="200"
+         />
+      
+    </a>
+    
+    
+    <!-- Sub-title 1--> 
+    <div class="heading">My Experience</div>
+    <div class="trapezoid"></div>
+    
+    <!-- organized list--> 
+    <ol class="border">
+      <li>
+        Helped more than 200 kids acheived co-curricular excellence through Speed Stacking
+      </li>
+      
+      <li>
+        Provided 2 training providers professional consultation on gamification trainings
+      </li>
+      
+      <li>
+        Automated more than 200 MS Excel Spreadsheets through VBA and Excel Formulas
+      </li>
+      
+      <li>
+        Created and edited more than 20 videos for commercial and in-house useage
+      </li>
+      
+      <li>
+        Provided professional graphic design services for gamification trainings
+      </li>
+    </ol>
+    
+    <!-- Sub-title 2-->  
+    <div class="heading">
+      My Skills
+    </div>
+    <div class="trapezoid"></div>
+    
+    <!-- unorganized list-->
+    <ul class="border">
+      <li>Speed Stacking</li>
+      <li>MS Excel & VBA</li>
+      <li>Adobe Premier Pro & After Effects</li>
+      <li>Adobe Illustrator & Photoshop</li>
+      <li>Game Designing</li>
+      <li>Entrepreneurship </li>
+      
+    </ul>
+    
+    <!-- Sub-title 3--> 
+    <div class="heading">
+      My Education
+    </div>
+    <div class="trapezoid"></div>
+    
+    <!-- unorganized list-->
+    <ul class="border">
+      <li>Sijil Kemahiran Malaysia (Creative Content & Digital Marketing)</li>
+      <li>Diploma in Information Technology</li>
+    </ul>
+    
+  
+        <div class="container">
+	<!-- code here -->
+	<div class="text-box">
+		<h3>VISIT MY WEBSITE</h3>
+		<h3>VISIT MY WEBSITE</h3>
+	</div>
+    
+  <a class="mouseover2" href="https://subangspeedstacks.wordpress.com" target="_blank">
+      
+     <h4>Subang Speed Stacks Website</h4>        
+      
+    </a>     
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
